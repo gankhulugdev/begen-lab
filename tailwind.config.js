@@ -8,9 +8,12 @@ export default {
     extend: {
       colors: {
   
-        'primary': '#3f3cbb',
-        'midnight': '#121063',
-        'metal': '#565584',
+        'primary': '#FC864F',
+        'dark': '#201D20',
+        'dark-grey':'66666E',
+        'bone': '#E0D1B8',
+        'manatee': '#8B8B94',
+        'light': '#FEFCFF'
 
       },
     },
