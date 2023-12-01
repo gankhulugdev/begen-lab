@@ -1,4 +1,5 @@
-import { About, Hero, Navbar } from "./components"
+import { About, Hero, Navbar } from "./sections"
+
 
 function App() {
 

@@ -1,7 +1,7 @@
 
 import { motion } from 'framer-motion';
-import { TypingText } from './custom-text';
 import { fadeIn, staggerContainer, styles } from '../utils';
+import { TypingText } from '../components';
 
 const About = () => (
     <section className={`${styles.paddings} relative z-10`}>
@@ -25,12 +25,12 @@ const About = () => (
                 and every wall becomes a canvas of endless <span className='font-extrabold text-light'>possibilities</span>.
             </motion.p>
 
-            <motion.img
+            {/* <motion.img
                 variants={fadeIn('up', 'tween', 0.3, 1)}
                 src="/arrow-down.svg"
                 alt="arrow down"
                 className="w-[18px] h-[28px] object-contain mt-[28px]"
-            />
+            /> */}
         </motion.div>
     </section>
 );

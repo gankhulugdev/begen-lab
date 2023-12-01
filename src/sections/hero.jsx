@@ -1,8 +1,9 @@
 
 
 import { motion } from 'framer-motion';
-import logo from '../../public/assets/logo.svg'
+import logo from '../assets/logo.svg'
 import { slideIn, staggerContainer, textVariant,styles } from '../utils';
+import heroImage from '../assets/hero-image.png'
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -34,8 +35,7 @@ const Hero = () => (
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px]  z-[0] -top-[30px]" />
 
         <img
-          src="https://www.bareconductive.com/cdn/shop/articles/4a077254462789.595cd4112eb4e_cc_16x9_d9c0cb9c-979b-4927-8266-483808f6f912_1080x.jpg?v=1616412127"
-          alt="hero_cover"
+          src={heroImage}
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px]  z-10 relative"
         />
 

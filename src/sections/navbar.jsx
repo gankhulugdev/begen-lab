@@ -1,10 +1,11 @@
 import { motion, useCycle } from 'framer-motion';
 import { navVariants, styles } from '../utils';
-import logo from '/assets/logo.svg'
-import { MenuToggle } from './menu-toggle';
-import { useRef } from 'react';
-import { useDimensions } from './use-dimension';
-import { Navigation } from './navigation';
+import logo from '../assets/logo.svg'
+import { MenuToggle } from '../components';
+// import { MenuToggle } from './menu-toggle';
+// import { useRef } from 'react';
+// import { useDimensions } from './use-dimension';
+// import { Navigation } from './navigation';
 const Navbar = () => {
     const [isOpen, toggleOpen] = useCycle(false, true);
     // const containerRef = useRef(null);
