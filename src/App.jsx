@@ -1,4 +1,4 @@
-import { About, Hero, Navbar } from "./sections"
+import { About, Explore, Hero, Navbar } from "./sections"
 
 
 function App() {
@@ -7,7 +7,12 @@ function App() {
     <div className="bg-dark overflow-hidden text-light">
       <Navbar />
       <Hero />
+      <div className="relative">
       <About />
+      <div className="gradient-03 z-0" />
+      </div>
+      
+      <Explore/>
       <div className="h-[3000px]">
 
       </div>

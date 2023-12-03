@@ -91,7 +91,6 @@
   height: 316px;
   left: 0px;
   top: 0px;
-
   background: #8d39a3;
   filter: blur(175px);
 }
@@ -102,7 +101,30 @@
   height: 100px;
   left: 37%;
   bottom: 0;
-
   background: #65c4fa;
   filter: blur(150px);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FC864F;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

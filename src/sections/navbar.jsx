@@ -49,11 +49,11 @@ const Navbar = () => {
                 />
 
                 <ul className="hidden  md:flex items-center gap-2 font-extrabold text-[16px] z-10  text-white">
-                    <li className='border-b-2'>FEATURES</li>
-                    <li>EXPLORE</li>
-                    <li>GALLERY</li>
-                    <li>TEMPLATES</li>
-                    <li>UPDATES</li>
+                    <li className='hover-underline-animation'>FEATURES</li>
+                    <li className='hover-underline-animation' >EXPLORE</li>
+                    <li className='hover-underline-animation' >GALLERY</li>
+                    <li className='hover-underline-animation'>TEMPLATES</li>
+                    <li className='hover-underline-animation'>UPDATES</li>
                 </ul>
 
                 <motion.nav
