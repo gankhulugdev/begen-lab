@@ -20,12 +20,12 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       ) : (
         <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
           <div
-            className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
+            className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px] duration-300 hover:shadow-[0_0px_6px_3px_rgba(255,255,255,0.4)]`}
           >
             <img
-              src="/headset.svg"
+              src="https://cdn0.iconfinder.com/data/icons/hotel-vacation-1/33/binoculars-2-512.png"
               alt="headset"
-              className="w-1/2 h-1/2 object-contain"
+              className="w-1/2 h-1/2 object-contain "
             />
           </div>
           <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">

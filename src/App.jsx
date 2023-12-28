@@ -1,21 +1,22 @@
-import { About, Explore, Hero, Navbar } from "./sections"
-
+import { About, Explore, GetStarted, Hero, Navbar } from "./sections";
 
 function App() {
-
   return (
     <div className="bg-dark overflow-hidden text-light">
       <Navbar />
       <Hero />
       <div className="relative">
-      <About />
-      <div className="gradient-03 z-0" />
+        <About />
+        <div className="gradient-03 z-0" />
       </div>
-      
-      <Explore/>
-      <div className="h-[3000px]">
 
+      <Explore />
+      <div className="relative">
+        <div className="gradient-04 z-0" />
+        <GetStarted />
       </div>
+
+      <div className="h-[3000px]"></div>
     </div>
 
     // <div className="bg-dark text-light">
@@ -55,7 +56,6 @@ function App() {
     //         </span>
     //       </span>
     //     </div>
-
 
     //     <div>
     //       <h1 className="font-semibold">
@@ -108,7 +108,6 @@ function App() {
     //       </p>
     //     </div>
 
-
     //     <div>
     //       <h1 className="font-semibold">
     //         Unique Selling Proposition (USP):
@@ -132,7 +131,6 @@ function App() {
     //       </ul>
     //     </div>
     //   </div>
-
 
     //   {/* Market Analysis section */}
     //   <div>
@@ -196,7 +194,6 @@ function App() {
     //       </ul>
     //     </div>
     //   </div>
-
 
     //   {/* Competitive Analysis section */}
     //   <div>
@@ -306,38 +303,33 @@ function App() {
     //     </div>
     //   </div>
 
-
-
-
     // </div>
-
-  )
+  );
 }
 
-export default App
+export default App;
 
-
-const COMPANY_NAME = 'BegenTouch labs'
+const COMPANY_NAME = "BegenTouch labs";
 
 const text = [
   {
-    mainSection: 'Executive Summary',
-    paragraph: '',
+    mainSection: "Executive Summary",
+    paragraph: "",
     subSection: [
       {
-        header: 'Mission Statement',
-        paragraph: `At ${COMPANY_NAME}, our mission is to revolutionize the way people experience and interact with physical spaces by creating highly customizable interactive walls that embody innovation, creativity, and exceptional quality.  Our goal is to bring interactive experiences to businesses, educational institutions, event venues, and private clients, enhancing their spaces and fostering creativity, collaboration, and engagement.`
-      }
-    ]
+        header: "Mission Statement",
+        paragraph: `At ${COMPANY_NAME}, our mission is to revolutionize the way people experience and interact with physical spaces by creating highly customizable interactive walls that embody innovation, creativity, and exceptional quality.  Our goal is to bring interactive experiences to businesses, educational institutions, event venues, and private clients, enhancing their spaces and fostering creativity, collaboration, and engagement.`,
+      },
+    ],
   },
   {
-    mainSection: '',
-    paragraph: '',
+    mainSection: "",
+    paragraph: "",
     subSection: [
       {
-        header: '',
-        paragraph: '',
-      }
-    ]
+        header: "",
+        paragraph: "",
+      },
+    ],
   },
-]
+];

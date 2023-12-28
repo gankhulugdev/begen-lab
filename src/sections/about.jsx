@@ -21,7 +21,7 @@ const About = () => (
             >At
                 <span className="font-extrabold text-primary"> Begen Touch Lab</span>  , we specialize in the design and
                 development of <span className='font-extrabold text-light'>interactive</span>  walls that transform static spaces into dynamic, engaging environments.
-                <span className='font-extrabold text-light'>Discover</span> the magic of interactive walls —where every touch tells a story,
+                <span className='font-extrabold text-light'> Discover</span> the magic of interactive walls —where every touch tells a story,
                 and every wall becomes a canvas of endless <span className='font-extrabold text-light'>possibilities</span>.
             </motion.p>
 

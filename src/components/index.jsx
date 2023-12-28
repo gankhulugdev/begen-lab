@@ -1,13 +1,17 @@
 import {useDimensions} from "./use-dimension";
 import {Navigation} from "./navigation"
 import { MenuToggle } from "./menu-toggle";
-import {TypingText, TitleText} from "./custom-text"
+import {TypingText, TitleText, StepTitle} from "./custom-text"
+import  StartSteps from "./start-steps"
 
 export {
     useDimensions,
     Navigation,
     MenuToggle,
     TypingText,
-    TitleText
+    StartSteps,
+    TitleText,
+    StepTitle
+
     
 }
