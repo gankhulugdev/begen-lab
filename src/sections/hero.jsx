@@ -1,9 +1,7 @@
-
-
-import { motion } from 'framer-motion';
-import logo from '../assets/logo.svg'
-import { slideIn, staggerContainer, textVariant,styles } from '../utils';
-import heroImage from '../assets/hero-image.png'
+import { motion } from "framer-motion";
+import logo from "../assets/logo.svg";
+import { slideIn, staggerContainer, textVariant, styles } from "../utils";
+import heroImage from "../assets/hero-image.png";
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -11,25 +9,26 @@ const Hero = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-        Transform Surfaces into
+          Transform Surfaces into
         </motion.h1>
-        <motion.div
+        <motion.h1
           variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
+          className={`${styles.heroHeading} flex flex-row justify-center items-center`}
         >
-          <h1 className={styles.heroHeading}><span className='text-primary'>Interactive</span> Works of Art</h1>
-          {/* <div className={styles.heroDText} /> */}
-          {/* <h1 className={styles.heroHeading}>ll</h1> */}
-        </motion.div>
+          <br/>
+          <span>
+            <span className="text-primary">Interactive</span> Works of Art
+          </span>
+        </motion.h1>
       </div>
 
       <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
+        variants={slideIn("right", "tween", 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px]  z-[0] -top-[30px]" />

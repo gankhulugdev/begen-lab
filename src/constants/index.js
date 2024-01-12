@@ -1,5 +1,8 @@
 import conceptualizationImage from "../assets/steps/conceptualization1.jpg";
 import designImage from "../assets/steps/design.jpg";
+import technologyImage from "../assets/steps/tech-integrate.jpg";
+import contentImage from "../assets/steps/content-development.jpg"
+
 export const exploreWorlds = [
   {
     id: "interactive-mural",
@@ -50,13 +53,13 @@ export const startingFeatures = [
     title: "Technology Integration",
     description:
       "We use the latest technology, like touch-sensitive surfaces, motion sensors and projection mapping, to make your interactive wall responsive and enjoyable to use.",
-    image: conceptualizationImage,
+    image: technologyImage,
   },
   {
     title: "Content Development",
     description:
       "Our content development team crafts immersive visuals, interactive games, informational displays, or any other content that suits your objectives.",
-    image: conceptualizationImage,
+    image: contentImage,
   },
   {
     title: "Installation and Testing",
